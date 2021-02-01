@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,22 @@
 		93D6739C25C3D51A002FAFAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D6739A25C3D51A002FAFAA /* Main.storyboard */; };
 		93D6739E25C3D51F002FAFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D6739D25C3D51F002FAFAA /* Assets.xcassets */; };
 		93D673A125C3D51F002FAFAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D6739F25C3D51F002FAFAA /* LaunchScreen.storyboard */; };
+		93D673AA25C3D582002FAFAA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D673A925C3D582002FAFAA /* SignUpViewController.swift */; };
+		93D673AD25C3D594002FAFAA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D673AC25C3D594002FAFAA /* LoginViewController.swift */; };
+		93D673B025C3D5B1002FAFAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D673AF25C3D5B1002FAFAA /* HomeViewController.swift */; };
+		93D673B625C3DD79002FAFAA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D673B525C3DD79002FAFAA /* Utilities.swift */; };
+		93D673D625C3EE57002FAFAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93D673D525C3EE57002FAFAA /* GoogleService-Info.plist */; };
+		93D6740425C68577002FAFAA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D6740325C68577002FAFAA /* Constants.swift */; };
+		93D6740825C69846002FAFAA /* angelo brewing.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93D6740725C69845002FAFAA /* angelo brewing.mp4 */; };
+		93D6740C25C70E9B002FAFAA /* Tio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93D6740B25C70E9B002FAFAA /* Tio.mp4 */; };
+		93D6740F25C70F5F002FAFAA /* TalkItOut.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93D6740E25C70F5F002FAFAA /* TalkItOut.mp4 */; };
+		93D6741225C70FE8002FAFAA /* TalkItOut2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93D6741125C70FE8002FAFAA /* TalkItOut2.mp4 */; };
+		D107749ECD67477FB2228D20 /* Pods_TalkItOutKWK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EBA8C57BD46DD589B45F4B /* Pods_TalkItOutKWK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03748F0491A8984BF51BFF17 /* Pods-TalkItOutKWK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkItOutKWK.release.xcconfig"; path = "Target Support Files/Pods-TalkItOutKWK/Pods-TalkItOutKWK.release.xcconfig"; sourceTree = "<group>"; };
+		92EBA8C57BD46DD589B45F4B /* Pods_TalkItOutKWK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkItOutKWK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D6739125C3D51A002FAFAA /* TalkItOutKWK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkItOutKWK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D6739425C3D51A002FAFAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93D6739625C3D51A002FAFAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,17 @@
 		93D6739D25C3D51F002FAFAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93D673A025C3D51F002FAFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93D673A225C3D51F002FAFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D673A925C3D582002FAFAA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		93D673AC25C3D594002FAFAA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		93D673AF25C3D5B1002FAFAA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		93D673B525C3DD79002FAFAA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		93D673D525C3EE57002FAFAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93D6740325C68577002FAFAA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		93D6740725C69845002FAFAA /* angelo brewing.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "angelo brewing.mp4"; sourceTree = "<group>"; };
+		93D6740B25C70E9B002FAFAA /* Tio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tio.mp4; sourceTree = "<group>"; };
+		93D6740E25C70F5F002FAFAA /* TalkItOut.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TalkItOut.mp4; sourceTree = "<group>"; };
+		93D6741125C70FE8002FAFAA /* TalkItOut2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TalkItOut2.mp4; sourceTree = "<group>"; };
+		BD18D2456A5EAABC5AC45CA9 /* Pods-TalkItOutKWK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkItOutKWK.debug.xcconfig"; path = "Target Support Files/Pods-TalkItOutKWK/Pods-TalkItOutKWK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D107749ECD67477FB2228D20 /* Pods_TalkItOutKWK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00638E42B7FFB07665D58EF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92EBA8C57BD46DD589B45F4B /* Pods_TalkItOutKWK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		93D6738825C3D51A002FAFAA = {
 			isa = PBXGroup;
 			children = (
 				93D6739325C3D51A002FAFAA /* TalkItOutKWK */,
 				93D6739225C3D51A002FAFAA /* Products */,
+				AF69EEF061420CE69FBF48E3 /* Pods */,
+				00638E42B7FFB07665D58EF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,58 @@
 		93D6739325C3D51A002FAFAA /* TalkItOutKWK */ = {
 			isa = PBXGroup;
 			children = (
+				93D673B225C3D5BD002FAFAA /* View Controllers */,
 				93D6739425C3D51A002FAFAA /* AppDelegate.swift */,
 				93D6739625C3D51A002FAFAA /* SceneDelegate.swift */,
-				93D6739825C3D51A002FAFAA /* ViewController.swift */,
+				93D673B825C3DD89002FAFAA /* Helpers */,
 				93D6739A25C3D51A002FAFAA /* Main.storyboard */,
-				93D6739D25C3D51F002FAFAA /* Assets.xcassets */,
-				93D6739F25C3D51F002FAFAA /* LaunchScreen.storyboard */,
 				93D673A225C3D51F002FAFAA /* Info.plist */,
+				93D6739D25C3D51F002FAFAA /* Assets.xcassets */,
+				93D673D525C3EE57002FAFAA /* GoogleService-Info.plist */,
+				93D6739F25C3D51F002FAFAA /* LaunchScreen.storyboard */,
 			);
 			path = TalkItOutKWK;
+			sourceTree = "<group>";
+		};
+		93D673B225C3D5BD002FAFAA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				93D6739825C3D51A002FAFAA /* ViewController.swift */,
+				93D673AF25C3D5B1002FAFAA /* HomeViewController.swift */,
+				93D673AC25C3D594002FAFAA /* LoginViewController.swift */,
+				93D673A925C3D582002FAFAA /* SignUpViewController.swift */,
+				93D6740625C6982F002FAFAA /* Media */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		93D673B825C3DD89002FAFAA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				93D673B525C3DD79002FAFAA /* Utilities.swift */,
+				93D6740325C68577002FAFAA /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		93D6740625C6982F002FAFAA /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				93D6740725C69845002FAFAA /* angelo brewing.mp4 */,
+				93D6740B25C70E9B002FAFAA /* Tio.mp4 */,
+				93D6740E25C70F5F002FAFAA /* TalkItOut.mp4 */,
+				93D6741125C70FE8002FAFAA /* TalkItOut2.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		AF69EEF061420CE69FBF48E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD18D2456A5EAABC5AC45CA9 /* Pods-TalkItOutKWK.debug.xcconfig */,
+				03748F0491A8984BF51BFF17 /* Pods-TalkItOutKWK.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93D673A525C3D51F002FAFAA /* Build configuration list for PBXNativeTarget "TalkItOutKWK" */;
 			buildPhases = (
+				D481D734925C12FF7B9A6C5E /* [CP] Check Pods Manifest.lock */,
 				93D6738D25C3D51A002FAFAA /* Sources */,
 				93D6738E25C3D51A002FAFAA /* Frameworks */,
 				93D6738F25C3D51A002FAFAA /* Resources */,
+				AEC4D8C79548CE895E0174BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,13 +204,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D6741225C70FE8002FAFAA /* TalkItOut2.mp4 in Resources */,
+				93D6740C25C70E9B002FAFAA /* Tio.mp4 in Resources */,
 				93D673A125C3D51F002FAFAA /* LaunchScreen.storyboard in Resources */,
+				93D673D625C3EE57002FAFAA /* GoogleService-Info.plist in Resources */,
 				93D6739E25C3D51F002FAFAA /* Assets.xcassets in Resources */,
 				93D6739C25C3D51A002FAFAA /* Main.storyboard in Resources */,
+				93D6740F25C70F5F002FAFAA /* TalkItOut.mp4 in Resources */,
+				93D6740825C69846002FAFAA /* angelo brewing.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEC4D8C79548CE895E0174BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkItOutKWK/Pods-TalkItOutKWK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkItOutKWK/Pods-TalkItOutKWK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalkItOutKWK/Pods-TalkItOutKWK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D481D734925C12FF7B9A6C5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkItOutKWK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		93D6738D25C3D51A002FAFAA /* Sources */ = {
@@ -139,7 +266,12 @@
 			files = (
 				93D6739925C3D51A002FAFAA /* ViewController.swift in Sources */,
 				93D6739525C3D51A002FAFAA /* AppDelegate.swift in Sources */,
+				93D673B625C3DD79002FAFAA /* Utilities.swift in Sources */,
+				93D673AA25C3D582002FAFAA /* SignUpViewController.swift in Sources */,
+				93D673AD25C3D594002FAFAA /* LoginViewController.swift in Sources */,
 				93D6739725C3D51A002FAFAA /* SceneDelegate.swift in Sources */,
+				93D673B025C3D5B1002FAFAA /* HomeViewController.swift in Sources */,
+				93D6740425C68577002FAFAA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +415,7 @@
 		};
 		93D673A625C3D51F002FAFAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD18D2456A5EAABC5AC45CA9 /* Pods-TalkItOutKWK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +434,7 @@
 		};
 		93D673A725C3D51F002FAFAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03748F0491A8984BF51BFF17 /* Pods-TalkItOutKWK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
